@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "481362138490",
+    "project_id": "planner-be33b",
+    "storage_bucket": "planner-be33b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481362138490:android:523a58aa8f62e5e28ff2c3",
+        "android_client_info": {
+          "package_name": "com.planner.diichi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481362138490-o75d7qfc0tl4ro2u85nb1su9otp12o46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxrHu5uRui6HMi5kKko0h-nXr2IHWnC8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481362138490-o75d7qfc0tl4ro2u85nb1su9otp12o46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
