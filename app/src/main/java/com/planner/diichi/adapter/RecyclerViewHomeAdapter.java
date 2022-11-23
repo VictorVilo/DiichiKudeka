@@ -51,7 +51,16 @@ public class RecyclerViewHomeAdapter extends RecyclerView.Adapter<RecyclerViewHo
         Picasso.get().load(strCategoryThum).placeholder(R.drawable.ic_circle).into(viewHolder.categoryThumb);
 
         String strCategoryName = categories.get(i).getStrCategory();
-        viewHolder.categoryName.setText(strCategoryName);
+
+        if (strCategoryName.equals("Breakfast")
+                || strCategoryName.equals("Beef")
+                || strCategoryName.equals("Chicken") || strCategoryName.equals("Dessert")) {
+            viewHolder.itemView.setVisibility(View.VISIBLE);
+            viewHolder.categoryName.setText(strCategoryName);
+        } else {
+            viewHolder.itemView.setVisibility(View.GONE);
+            viewHolder.itemView.setLayoutParams(new RecyclerView.LayoutParams(0, 0));
+        }
     }
 
 

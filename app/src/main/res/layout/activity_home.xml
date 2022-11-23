@@ -74,12 +74,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:drawableStart="@drawable/ic_search_primary_light"
-                    android:drawableLeft="@drawable/ic_search_primary_light"
+                    android:drawableStart="@drawable/ic_baseline_edit_24"
                     android:drawablePadding="10dp"
                     android:gravity="center_vertical"
                     android:padding="10dp"
-                    android:text="@string/search_your_recipes"
+                    android:text="Customize Your Recipe..."
                     android:textColor="@color/colorPrimaryLight" />
             </androidx.cardview.widget.CardView>
 
@@ -112,8 +111,8 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerCategory"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleCategory"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="10dp"
@@ -132,6 +131,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginTop="20dp"
                 android:background="@color/colorPrimaryLight"
+                android:fontFamily="cursive"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/app_name"

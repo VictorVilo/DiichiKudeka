@@ -12,6 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
+
+        <activity
+            android:name=".notes.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notes.NoteActivity"
+            android:exported="false" />
+        <activity
+
+            android:name=".notes.ArchiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notes.TrashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notes.MainActivity2"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

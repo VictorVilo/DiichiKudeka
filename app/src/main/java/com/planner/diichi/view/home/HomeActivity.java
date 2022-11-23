@@ -13,6 +13,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
@@ -26,6 +27,7 @@ import com.planner.diichi.adapter.RecyclerViewHomeAdapter;
 import com.planner.diichi.adapter.ViewPagerHeaderAdapter;
 import com.planner.diichi.model.Categories;
 import com.planner.diichi.model.Meals;
+import com.planner.diichi.notes.MainActivity2;
 import com.planner.diichi.view.category.CategoryActivity;
 
 import java.io.Serializable;
@@ -39,6 +41,7 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
     public static final String EXTRA_CATEGORY = "category";
     public static final String EXTRA_POSITION = "position";
     public static final String EXTRA_DETAIL = "detail";
+    CardView notes;
     ImageView logout;
     @BindView(R.id.viewPagerHeader)
     ViewPager viewPagerMeal;
@@ -81,6 +84,13 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
         presenter = new HomePresenter(this);
         presenter.getMeals();
         presenter.getCategories();
+
+        notes = findViewById(R.id.cardSearch);
+        notes.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     @Override

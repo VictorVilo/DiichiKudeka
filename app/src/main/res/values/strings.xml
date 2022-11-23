@@ -44,5 +44,101 @@
     <string name="login_password_hint">Password</string>
     <string name="signup_login_hint">Already have an account? Sign In</string>
     <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <!-- Drawer menu -->
+    <string name="notes">Notes</string>
+    <string name="reminders">Reminders</string>
+    <string name="archive">Archive</string>
+    <string name="trash">Trash</string>
+    <string name="settings">Settings</string>
 
+    <string name="open_nav_drawer">Navigation Drawer Open</string>
+    <string name="close_nav_drawer">Navigation Drawer Close</string>
+    <string name="go_back_to_home_page">Go back to home page</string>
+    <string name="view_notes_that_have_reminders">View notes that have reminders</string>
+    <string name="go_to_archive">Go to archive</string>
+    <string name="go_to_trash">Go to trash</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <string name="go_back">Go back</string>
+    <string name="pin">Pin</string>
+    <string name="pin_the_current_note">Pin the current note</string>
+    <string name="add_reminder">Add reminder</string>
+    <string name="add_a_reminder_to_current_note">Add a reminder to current note</string>
+    <string name="send_to_archive">Archive</string>
+    <string name="send_the_current_note_to_archive">Send the current note to archive</string>
+    <string name="send_the_current_note_to_trash">Send the current note to trash</string>
+    <string name="date_of_last_edit">Date of last edit</string>
+    <string name="date_edited">Date edited</string>
+    <string name="delete">Delete</string>
+    <string name="delete_this_note">Delete this note</string>
+    <string name="make_a_copy">Make a copy</string>
+    <string name="share_this_note">Share this note</string>
+    <string name="share_note">Share note</string>
+    <string name="paste_from_clipboard">Paste from clipboard</string>
+    <string name="paste">Paste</string>
+    <string name="copy_note_content_to_clipboard">Copy note content to clipboard</string>
+    <string name="title">Title</string>
+    <string name="enter_your_note_title_here">Enter your note title here</string>
+    <string name="enter_your_note_content_here">Note</string>
+    <string name="create_new_note">Create new note</string>
+    <string name="copied_text_clipboard">Copied note to clipboard</string>
+    <string name="didnt_copy_text_clipboard">Did not copy empty note</string>
+    <string name="empty_clipboard">Clipboard is empty, could not paste</string>
+    <string name="clipboard_not_text">Clipboard has data, but it is not plain text</string>
+    <string name="clipboard_pasted">Pasted from clipboard</string>
+    <string name="undo">Undo</string>
+    <string name="send_to_trash">Send to Trash</string>
+    <string name="no_notes_yet">Click on the + button to create your first note</string>
+    <string name="nothing_in_trash">Nothing in trash!</string>
+    <string name="nothing_in_archive">Nothing in Archive!</string>
+    <string name="font_settings">Font Settings</string>
+    <string name="accessibility_prompt">Do you need accessibility settings? Font size and a Dyslexia friendly font are available</string>
+    <string name="accessibility_settings">Accessibility Settings</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="confirm_action">Confirm Action</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete these notes permanently?\nThis action cannot be undone.</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete_permanently">DELETE PERMANENTLY</string>
+    <string name="notes_sent_trash">Notes sent to trash</string>
+    <string name="Undo">Undo</string>
+    <string name="notes_unarchived">Notes unarchived</string>
+    <string name="notes_archived">Notes archived</string>
+    <string name="note_selected"> note selected</string>
+    <string name="notes_selected"> notes selected</string>
+    <string name="discarded_empty_note">Discarded empty note</string>
+    <string name="dyslexia_friendly_font">Dyslexia Friendly Font</string>
+    <string name="font_size">Font Size</string>
+    <string name="note_deleted_successfully">Note deleted successfully</string>
+    <string name="ask_send_note_to_trash">Send note to trash?</string>
+    <string name="note_archived">Note archived</string>
+    <string name="note_unarchived">Note unarchived</string>
+    <string name="note_sent_to_trash">Note sent to trash</string>
+    <string name="cannot_share_empty_note">Cannot share empty note</string>
+    <string name="cannot_delete_empty_note">Cannot delete empty note</string>
+    <string name="ask_are_you_sure">Are you sure?</string>
+    <string name="cannot_archive_empty_note">Cannot archive empty note</string>
+    <string name="this_will_delete_the_note_permanently">This will delete the note permanently</string>
+    <string name="delete_notes_permanently">This will delete notes permanently</string>
+    <string name="you_would_still_be_able_to_restore_the_note">You would still be able to restore the note.</string>
+    <string name="sharing_note">Sharing Note</string>
+    <string name="copied_text">Copied text</string>
+    <string name="font_size_small">Small</string>
+    <string name="font_size_medium">Medium</string>
+    <string name="font_size_large">Large</string>
+    <string name="font_type_default">Default</string>
+    <string name="font_type_dyslexia">Dyslexia-friendly</string>
+    <string name="empty_trash">Empty trash</string>
+    <string name="trash_is_empty">Trash is empty! There is nothing to delete</string>
+
+    <string-array name="settings_fontsize">
+        <item>@string/font_size_small</item>
+        <item>@string/font_size_medium</item>
+        <item>@string/font_size_large</item>
+    </string-array>
+
+    <string-array name="settings_fonttype">
+        <item>@string/font_type_default</item>
+        <item>@string/font_type_dyslexia</item>
+    </string-array>
 </resources>

@@ -42,7 +42,7 @@
             android:clickable="true"
             android:focusable="true"
             android:src="@drawable/ic_favorite_border"
-            android:tint="@color/colorAccent"
+            app:tint="@color/colorAccent"
             tools:ignore="NewApi" />
 
         <TextView

@@ -61,7 +61,7 @@
 
     <style name="modifiedEditText" parent="parent">
         <item name="android:textSize">@dimen/newsMoreTextSize</item>
-<!--        <item name="android:backgroundTint">@color/primaryTextColor</item>-->
+        <!--        <item name="android:backgroundTint">@color/primaryTextColor</item>-->
     </style>
 
     <style name="viewParent">
@@ -76,7 +76,19 @@
     </style>
 
 
-    <!--onboarding designs-->
+    <!-- Small Font Size Used For NavigationView-->
+    <style name="NavigationViewSmall" parent="TextAppearance.AppCompat.Small">
+        <item name="itemTextAppearance">?textAppearanceTitleSmall</item>
+    </style>
 
+    <!-- Medium Font Size Used For NavigationView-->
+    <style name="NavigationViewMedium" parent="TextAppearance.AppCompat.Medium">
+        <item name="itemTextAppearance">?textAppearanceTitleMedium</item>
+    </style>
+
+    <!-- Large Font Size Used For NavigationView-->
+    <style name="NavigationViewLarge" parent="TextAppearance.AppCompat.Large">
+        <item name="itemTextAppearance">?textAppearanceTitleLarge</item>
+    </style>
 
 </resources>
