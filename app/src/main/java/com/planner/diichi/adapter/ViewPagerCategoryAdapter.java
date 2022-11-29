@@ -40,7 +40,7 @@ public class ViewPagerCategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return categories.size();
+        return 4;
     }
 
     @Nullable

@@ -52,7 +52,7 @@ public class RecyclerViewHomeAdapter extends RecyclerView.Adapter<RecyclerViewHo
 
         String strCategoryName = categories.get(i).getStrCategory();
 
-        if (strCategoryName.equals("Breakfast")
+        if (strCategoryName.equals("Lamb")
                 || strCategoryName.equals("Beef")
                 || strCategoryName.equals("Chicken") || strCategoryName.equals("Dessert")) {
             viewHolder.itemView.setVisibility(View.VISIBLE);

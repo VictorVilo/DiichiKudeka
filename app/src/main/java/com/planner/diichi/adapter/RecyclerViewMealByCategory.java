@@ -52,6 +52,8 @@ public class RecyclerViewMealByCategory extends RecyclerView.Adapter<RecyclerVie
 
         String strMealName = meals.get(i).getStrMeal();
         viewHolder.mealName.setText(strMealName);
+
+
     }
 
 
